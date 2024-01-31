@@ -1,20 +1,18 @@
 {
-  "hasSrc": true,
+  "hasSrc": false,
   "packages": [
     "shadcn-ui",
     "drizzle",
-    "next-auth",
-    "trpc",
-    "resend",
-    "stripe"
+    "lucia",
+    "trpc"
   ],
   "preferredPackageManager": "bun",
   "t3": false,
   "alias": "@",
-  "rootPath": "src/",
+  "rootPath": "",
   "componentLib": "shadcn-ui",
   "driver": "mysql",
-  "provider": "mysql-2",
+  "provider": "planetscale",
   "orm": "drizzle",
-  "auth": "next-auth"
+  "auth": "lucia"
 }
