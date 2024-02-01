@@ -4,7 +4,9 @@ import aa from "@/assets/imgs/a.png";
 const App: React.FC = () => {
   return (
     <div>
-      <span>1111</span>
+      <h1 className="text-3xl font-bold underline flex select-none">
+        Hello world!
+      </h1>
       <img src={aa}></img>
     </div>
   );

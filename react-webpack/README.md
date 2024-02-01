@@ -15,3 +15,12 @@ pnpm add -D babel-loader @babel/core @babel/preset-env @babel/preset-react @babe
 
 <!-- html -->
 pnpm add -D html-webpack-plugin
+
+<!-- tailwind css -->
+pnpm add -D tailwindcss
+npx tailwindcss init
+
+<!-- postcss -->
+pnpm add -D postcss-loader postcss autoprefixer
+pnpm add -D postcss-import postcss-nesting
+pnpm add -D style-loader css-loader
