@@ -45,3 +45,6 @@ pnpm add @radix-ui/react-icons
 
 pnpm dlx shadcn-ui@latest add button
 
+-----------------
+
+ pnpm add -D core-js
